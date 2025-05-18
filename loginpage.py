@@ -97,7 +97,7 @@ with col2:
     st.image(logo_path, width=150)
 
 st.markdown(
-    "<h4 style='text-align: center; font-size: 20px; margin-top: 5px;'>🚀 Sales Management Dashboard 🚀</h4>",
+    "<h4 style='text-align: center; font-size: 20px; margin-top: 5px;'>🚀 WEB-BASED SALES MANAGEMENT SYSTEM 🚀</h4>",
     unsafe_allow_html=True
 )
 
