@@ -1,0 +1,4 @@
+Username,Password,Role
+admin,$2b$12$5OMJkw3UyLCfcs.0qBp7Z.k8GTpUNDISIDHBbTXJVGiY1gaWMeO16,Admin
+sales1,$2b$12$cQinWQ.wSzkbW2ZCGz4jheuWcKGJOGPvWHx782dnbCutD1USxI132,Salesperson
+sales2,$2b$12$Yt9uDlmgZNbqkrUAQVzjHuwwvgDHbHMnzMaOG/O8FJ.XJrSSzN44S,Salesperson
