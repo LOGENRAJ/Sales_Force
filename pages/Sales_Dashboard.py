@@ -43,11 +43,17 @@ def load_sales_data():
     else:
         return pd.DataFrame(columns=["Date & Time", "Customer Name", "Product", "Units Bought", "Revenue ($)", "Customer Email"])
 
-# Save new sale to Excel
 def save_sales_data(new_sale):
-    sales_data.to_csv("sales_data.csv", index=False)
-    updated_data = pd.concat([sales_data, new_sale], ignore_index=True)
+    # Load existing sales data
+    current_data = load_sales_data()
+
+    # Combine current and new data
+    updated_data = pd.concat([current_data, new_sale], ignore_index=True)
+
+    # Save to Excel and CSV
     updated_data.to_excel(EXCEL_FILE, index=False)
+    updated_data.to_csv("sales_data.csv", index=False)
+
 
 # Initialize sales data
 sales_data = load_sales_data()
